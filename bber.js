@@ -33,7 +33,7 @@ app.auth({
         }
         page++
         Lately({ 'target': '#bber .datatime' });
-        $("#bber a[rel!=link]:has(img)").slimbox();//图片灯箱效果
+        $("#bber a[rel!=link]:has(img)");
     });
   }
   function getSerList(ser){
@@ -58,7 +58,7 @@ app.auth({
         $('html,body').animate({ scrollTop: $('.timeline').offset().top - 20 }, 500)
         $('.load').remove()
         Lately({ 'target': '#bber .datatime' });
-        $("#bber a[rel!=link]:has(img)").slimbox();//图片灯箱效果
+        $("#bber a[rel!=link]:has(img)");
       });
   }
   $('.button-load').click(function(){
